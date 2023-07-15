@@ -1,0 +1,15 @@
+mkdocs
+mkdocs-material
+mkdocs-pdf-export-plugin
+mkdocs-pdf
+mkdocs-awesome-pages-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-minify-plugin
+mkdocs-redirects
+mkdocs-section-index
+mkdocs-table-reader-plugin
+mkdocs-mermaid2-plugin
+mkdocs-plantuml
+mkdocs-include-markdown-plugin
+mkdocs-include
+mkdocs-exclude

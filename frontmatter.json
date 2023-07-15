@@ -1,0 +1,148 @@
+{
+  "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.content.fmHighlight": true,
+  "frontMatter.content.fmDelimiter": "---",
+  "frontMatter.content.wysiwyg": true,
+  "frontMatter.preview.host": "localhost",
+  "frontMatter.content.supportedFileTypes": [
+    "md",
+    "mdx",
+    "markdown",
+    "html",
+    "pdf"
+  ],
+  "frontMatter.content.snippets": {},
+  "frontMatter.content.sorting": [
+    {
+      "name": "date",
+      "title": "Date",
+      "order": "desc"
+    }
+  ],
+  "frontMatter.dashboard.content.card.fields.date": true,
+  "frontMatter.dashboard.content.card.fields.description": "description",
+  "frontMatter.dashboard.content.card.fields.title": "title",
+  "frontMatter.dashboard.content.card.fields.state": true,
+  "frontMatter.dashboard.content.card.fields.tags": true,
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "preview",
+          "name": "preview",
+          "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "authors",
+          "name": "authors",
+          "type": "choice",
+          "choices": [
+            "dgmjr"
+          ]
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "tags"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "license",
+          "name": "license",
+          "type": "choice",
+          "choices": [
+            {
+              "id": "MIT",
+              "title": "MIT License"
+            },
+            {
+              "id": "CC-BY-4.0",
+              "title": "Creative Commons Attribution 4.0 International"
+            },
+            {
+              "id": "CC-BY-SA-4.0",
+              "title": "Creative Commons Attribution-ShareAlike 4.0 International"
+            },
+            {
+              "id": "CC-BY-NC-4.0",
+              "title": "Creative Commons Attribution-NonCommercial 4.0 International"
+            },
+            {
+              "id": "CC-BY-NC-SA-4.0",
+              "title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+            },
+            {
+              "id": "CC-BY-NC-ND-4.0",
+              "title": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International"
+            },
+            {
+              "id": "WTFPL",
+              "title": "Do What The Fuck You Want to License"
+            }
+          ]
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "other",
+  "frontMatter.content.publicFolder": "",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "docs",
+      "path": "[[workspace]]/docs"
+    }
+  ],
+  "frontMatter.git.enabled": true,
+  "frontMatter.data.folders": [
+    {
+      "type": "certs",
+      "path": "[[workspace]]/certs.json",
+      "fileType": "json",
+      "enableFileCreation": true,
+      "id": "certs"
+    }
+  ]
+}

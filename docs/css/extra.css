@@ -1,0 +1,9 @@
+/* Hide the left navigation pane */
+.md-sidebar--primary {
+    display: none;
+}
+
+/* Adjust the main content area to take full width */
+.md-main {
+    margin-left: 0;
+}

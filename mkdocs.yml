@@ -1,0 +1,24 @@
+site_name: Dr. David G. Moore, Jr.'s Professional Certifications
+site_url: https://credentials.dgmjr.phd
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: blue
+    scheme: dark
+  icon:
+    logo: material/school
+  features:
+    - header.autohide
+    - search.suggest
+    - search.highlight
+    - search.share
+  extra_css:
+    - css/extra.css  # Path to your custom CSS file
+docs_dir: docs
+markdown_extensions: 
+  - attr_list
+plugins:
+  - search
+  - mkdocs-pdf
+repo_url: https://github.com/dgmjr/Professional-Certifications

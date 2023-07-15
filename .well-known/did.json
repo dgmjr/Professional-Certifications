@@ -1,0 +1,48 @@
+{
+  "id": "did:web:credentials.dgmjr.phd",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:credentials.dgmjr.phd"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://credentials.dgmjr.phd/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/6686b898-2997-404f-b6d3-ee206ecfc6aa"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#29878c3c5356401487a1d2a8654017b1vcSigningKey-e6b5d",
+      "controller": "did:web:credentials.dgmjr.phd",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "Le1GlNw92GYhBkHH5d7VGrnZd9--scqy_3Mh4S06y60",
+        "y": "9lo-cYSD0MilCmJT_qxzD2AsCytzfa_NvDjbmZNiwcc"
+      }
+    }
+  ],
+  "authentication": [
+    "#29878c3c5356401487a1d2a8654017b1vcSigningKey-e6b5d"
+  ],
+  "assertionMethod": [
+    "#29878c3c5356401487a1d2a8654017b1vcSigningKey-e6b5d"
+  ]
+}

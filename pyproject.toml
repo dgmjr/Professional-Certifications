@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "Dr. David G. Moore, Jr.'s Professional Credentials"
+version = "0.0.1"
+description = "Dr. David G. Moore, Jr.'s Professional Credentials"
+authors = ["David G. Moore, Jr."]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mkdocs = "^1.2.3"
+mkdocs-material = "^7.1.0"
+mkdocs-pdf = "^0.1.2"
+mkdocs-pdf-export-plugin = "^0.5.8"
+mkdocs-awesome-pages-plugin = "^2.5.0"
+mkdocs-git-revision-date-localized-plugin = "^0.9.1"
+mkdocs-minify-plugin = "^0.3.0"
+mkdocs-redirects = "^1.0.0"
+mkdocs-section-index = "^0.3.2"
+mkdocs-table-reader-plugin = "^0.5.0"
+mkdocs-mermaid2-plugin = "^0.5.0"
+mkdocs-plantuml = "^0.1.0"
+mkdocs-include-markdown-plugin = "^2.8.0"
+mkdocs-include = "^1.0.0"
+mkdocs-exclude = "^1.0.0"
+htmlmin3 = "^0.1.12" 
