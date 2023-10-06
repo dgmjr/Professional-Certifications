@@ -18,6 +18,6 @@ lastmod: 2023-09-22T01:04:00.000Z
 * [Modern Application Development with .NET on AWS](https://github.com/dgmjr/Professional-Certifications/blob/main/Modern-Application-Development-with-.NET-on-AWS-Coursera-ELTDV5643ZTG.pdf?raw=true)
 * [Modern Application Development with Node.js on AWS](https://github.com/dgmjr/Professional-Certifications/blob/main/Modern-Application-Development-with-Node.js-on-AWS-Coursera-SXVE6XX4NGWN.pdf?raw=true)
 * [Nationlally Registered Emergency Medical Technician](https://github.com/dgmjr/Professional-Certifications/blob/main/NREMT.pdf?raw=true)
-* [Professional Association of Diving Instructors: Advanced Open Water Diver](https://github.com/dgmjr/PADI-Advanced-Open-Water-Diver.pdf?raw=true)
+* [Professional Association of Diving Instructors: Advanced Open Water Diver](https://github.com/dgmjr/Professional-Certifications/blob/main/PADI-Advanced-Open-Water-Diver.pdf?raw=true)
 * [Project Management Institute: Project Management Professional](https://github.com/dgmjr/Professional-Certifications/blob/main/PMP.pdf?raw=true)
 
