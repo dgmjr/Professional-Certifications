@@ -7,7 +7,7 @@ type: readme
 license: WTFPL
 description: Index of Dr. David G. Moore, Jr.'s Professional Credentials
 date: 2023-09-22T01:04:00.000Z
-lastmod: 2023-11-26T19:31:00.000-05:00
+lastmod: 2023-11-26T19:32:00.000-05:00
 ---
 
 # Dr. David G. Moore, Jr.'s Professional Credentials
