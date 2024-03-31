@@ -1,0 +1,12 @@
+site_name: Dr. David G. Moore, Jr.'s Professional Certifications
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: blue
+    scheme: dark
+  icon:
+    logo: node_modules/bootstrap-icons/text-center
+nav:
+  - Home: index.md
+docs_dir: docs
