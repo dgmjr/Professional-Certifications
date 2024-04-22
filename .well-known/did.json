@@ -1,0 +1,48 @@
+{
+  "id": "did:web:dgmjr.phd",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:dgmjr.phd"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://dgmjr.phd/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/6686b898-2997-404f-b6d3-ee206ecfc6aa"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#2bfff2ad75ee4c5d90202f0e874ec0fbvcSigningKey-00dbd",
+      "controller": "did:web:dgmjr.phd",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "Ehlb3bSXiGjA3dA1BLNDB1oNU9V9haGLKpjaF0x8cuo",
+        "y": "hObFn_5DQoVr_e0l-VrGWao3H01jfDaNP7rnRh2hS8c"
+      }
+    }
+  ],
+  "authentication": [
+    "#2bfff2ad75ee4c5d90202f0e874ec0fbvcSigningKey-00dbd"
+  ],
+  "assertionMethod": [
+    "#2bfff2ad75ee4c5d90202f0e874ec0fbvcSigningKey-00dbd"
+  ]
+}
