@@ -1,9 +1,9 @@
 {
-  "id": "did:web:dgmjr.phd",
+  "id": "did:web:credentials.dgmjr.phd",
   "@context": [
     "https://www.w3.org/ns/did/v1",
     {
-      "@base": "did:web:dgmjr.phd"
+      "@base": "did:web:credentials.dgmjr.phd"
     }
   ],
   "service": [
@@ -12,7 +12,7 @@
       "type": "LinkedDomains",
       "serviceEndpoint": {
         "origins": [
-          "https://dgmjr.phd/"
+          "https://credentials.dgmjr.phd/"
         ]
       }
     },
@@ -28,21 +28,21 @@
   ],
   "verificationMethod": [
     {
-      "id": "#2bfff2ad75ee4c5d90202f0e874ec0fbvcSigningKey-00dbd",
-      "controller": "did:web:dgmjr.phd",
+      "id": "#29878c3c5356401487a1d2a8654017b1vcSigningKey-e6b5d",
+      "controller": "did:web:credentials.dgmjr.phd",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "crv": "P-256",
         "kty": "EC",
-        "x": "Ehlb3bSXiGjA3dA1BLNDB1oNU9V9haGLKpjaF0x8cuo",
-        "y": "hObFn_5DQoVr_e0l-VrGWao3H01jfDaNP7rnRh2hS8c"
+        "x": "Le1GlNw92GYhBkHH5d7VGrnZd9--scqy_3Mh4S06y60",
+        "y": "9lo-cYSD0MilCmJT_qxzD2AsCytzfa_NvDjbmZNiwcc"
       }
     }
   ],
   "authentication": [
-    "#2bfff2ad75ee4c5d90202f0e874ec0fbvcSigningKey-00dbd"
+    "#29878c3c5356401487a1d2a8654017b1vcSigningKey-e6b5d"
   ],
   "assertionMethod": [
-    "#2bfff2ad75ee4c5d90202f0e874ec0fbvcSigningKey-00dbd"
+    "#29878c3c5356401487a1d2a8654017b1vcSigningKey-e6b5d"
   ]
 }
